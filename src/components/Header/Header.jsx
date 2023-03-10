@@ -1,8 +1,7 @@
-import { useEffect } from "react";
 import { tg } from "../../utils/tg";
 import { Button } from "../Button/Button";
 
-export const Header = (props) => {
+export const Header = () => {
   const onClose = () => {
     tg.close();
   };
