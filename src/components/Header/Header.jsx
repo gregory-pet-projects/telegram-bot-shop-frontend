@@ -1,5 +1,4 @@
 import { useTelegram } from "../../hooks/useTelegram";
-import { tg } from "../../utils/tg";
 import { Button } from "../Button/Button";
 
 export const Header = () => {
