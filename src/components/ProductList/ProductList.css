@@ -1,3 +1,10 @@
-.button {
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
+.item {
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
