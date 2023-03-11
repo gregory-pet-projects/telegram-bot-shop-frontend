@@ -51,17 +51,11 @@ export const Form = () => {
   }, [country, street, tg]);
 
   // Define onChange event handlers for the country, street, and subject inputs
-  const onChangeCountry = (e) => {
-    setCountry(e.target.value);
-  };
+  const onChangeCountry = (e) => setCountry(e.target.value);
 
-  const onChangeStreet = (e) => {
-    setStreet(e.target.value);
-  };
+  const onChangeStreet = (e) => setStreet(e.target.value);
 
-  const onChangeSubject = (e) => {
-    setSubject(e.target.value);
-  };
+  const onChangeSubject = (e) => setSubject(e.target.value);
 
   // Render the component
   return (
